@@ -28,6 +28,8 @@ public class ImageUtil {
     private final static int NOT_FIRST = 1;
 
     private final static int FIRST = IS_FIRST;
+    
+    private final static String WINDOWS_BASE_PATH = "A:\\Personal\\图片\\wallpaper\\";
 
     private static String bigImgUrl(String url) {
         return url.substring(0,END_INDEX);
@@ -130,7 +132,7 @@ public class ImageUtil {
         ImageUtil imageUtil = new ImageUtil();
         String basePath = imageUtil.imageSavePath;
         if(basePath == null){
-            basePath  =  "C:\\all\\iwallpaper\\";
+            basePath  = WINDOWS_BASE_PATH;
             File file = new File(basePath);
             if(!file.exists()){
                 file.mkdir();
