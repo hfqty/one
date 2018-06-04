@@ -3,7 +3,7 @@ package me.ning.Sort;
 import static me.ning.Sort.SortUtils.less;
 import static me.ning.Sort.SortUtils.print;
 
-public class BinaryTreeSort implements SortAlgotithm {
+public class BinaryTreeSort implements SortAlgorithm {
 
     interface TreeVisitor<T extends Comparable<T>>{
         void visit(Node<T> node);

@@ -4,7 +4,7 @@ import static me.ning.Sort.SortUtils.less;
 import static me.ning.Sort.SortUtils.print;
 import static me.ning.Sort.SortUtils.swap;
 
-public class CombSort implements SortAlgotithm {
+public class CombSort implements SortAlgorithm {
 
 
     private int nextGap(int gap){
@@ -35,7 +35,7 @@ public class CombSort implements SortAlgotithm {
 
 
     public static void main(String[]args){
-        SortAlgotithm combSort = new CombSort();
+        SortAlgorithm combSort = new CombSort();
         Integer []integers = {10,4,1000,33,199,12,133,45,30,10};
         integers = combSort.sort(integers);
         print(integers);

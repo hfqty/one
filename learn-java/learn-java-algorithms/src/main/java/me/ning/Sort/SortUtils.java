@@ -30,7 +30,7 @@ public final class SortUtils {
 
     static <T extends Comparable<T>> void flip(T[] array,int left,int right){
         while(left <= right){
-            swap(array,left++,right++);
+            swap(array,left++,right--);
         }
     }
 

@@ -6,7 +6,7 @@ import static me.ning.Sort.SortUtils.less;
 import static me.ning.Sort.SortUtils.print;
 import static me.ning.Sort.SortUtils.swap;
 
-public class BogoSort implements SortAlgotithm{
+public class BogoSort implements SortAlgorithm{
 
     private static final Random random = new Random();
 

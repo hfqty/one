@@ -4,7 +4,7 @@ import static me.ning.Sort.SortUtils.less;
 import static me.ning.Sort.SortUtils.print;
 import static me.ning.Sort.SortUtils.swap;
 
-public class CocktailShakerSort implements SortAlgotithm {
+public class CocktailShakerSort implements SortAlgorithm {
     @Override
     public <T extends Comparable<T>> T[] sort(T[] unsorted) {
         int last = unsorted.length;
@@ -45,7 +45,7 @@ public class CocktailShakerSort implements SortAlgotithm {
 
     public static void main(String[] args) {
         Integer[] integers = {100, 10, 30, 20, 40, 20, 50, 70, 100, 90, 60, 10};
-        SortAlgotithm shakerSort = new CocktailShakerSort();
+        SortAlgorithm shakerSort = new CocktailShakerSort();
         integers = shakerSort.sort(integers);
         print(integers);
 

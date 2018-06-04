@@ -9,7 +9,7 @@ import static me.ning.Sort.SortUtils.print;
 import static me.ning.Sort.SortUtils.swap;
 import static me.ning.UI.InputUtil.integerList;
 
-public class HeapSort implements SortAlgotithm{
+public class HeapSort implements SortAlgorithm{
 
 
     private static class Heap<T extends Comparable<T>>{

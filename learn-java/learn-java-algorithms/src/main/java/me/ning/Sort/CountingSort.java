@@ -9,7 +9,7 @@ import static java.util.stream.Collectors.toMap;
 import static me.ning.Sort.SortUtils.print;
 
 
-public class CountingSort implements SortAlgotithm {
+public class CountingSort implements SortAlgorithm {
     @Override
     public <T extends Comparable<T>> T[] sort(T[] unsorted) {
         return sort(Arrays.asList(unsorted)).toArray(unsorted);

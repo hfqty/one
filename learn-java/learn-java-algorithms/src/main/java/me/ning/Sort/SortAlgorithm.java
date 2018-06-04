@@ -3,7 +3,7 @@ package me.ning.Sort;
 import java.util.Arrays;
 import java.util.List;
 
-public interface SortAlgotithm {
+public interface SortAlgorithm {
 
     <T extends Comparable<T>> T[] sort(T[] unsorted);
 

@@ -4,7 +4,7 @@ import static me.ning.Sort.SortUtils.less;
 import static me.ning.Sort.SortUtils.print;
 import static me.ning.Sort.SortUtils.swap;
 
-public class BubbleSort implements SortAlgotithm{
+public class BubbleSort implements SortAlgorithm{
 
     @Override
     public <T extends Comparable<T>> T[] sort(T[] unsorted) {
