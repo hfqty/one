@@ -8,7 +8,7 @@ import java.io.FileWriter;
 import java.io.IOException;
 
 public class CreaterWriter {
-    static String basepath = "C:\\all\\ilife\\book\\doulist\\";
+    static String basepath = "D:\\Personal\\文档\\豆列\\";
     public static BufferedWriter writer(Creater creater) throws IOException {
         BufferedWriter writer = createFileWriter(creater);
         writer.write("#" + creater.getTitle());

@@ -25,6 +25,8 @@ public class DouListToMarkDown {
                 .id(14090587)//开智
                 .id(31441)//编程
                 .id(43430373)//2500
+                .id(73746)
+        .id(444550)
         ;
 
         DouListParser douListParser = new DouListParser(douList);

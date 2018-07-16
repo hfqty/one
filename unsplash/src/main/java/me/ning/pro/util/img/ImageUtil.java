@@ -30,7 +30,7 @@ public class ImageUtil {
 
     private final static int FIRST = IS_FIRST;
     
-    private final static String WINDOWS_BASE_PATH = "A:\\Personal\\图片\\wallpaper\\";
+    private final static String WINDOWS_BASE_PATH = "D:\\Personal\\图片\\wallpaper\\";
 
     private static String bigImgUrl(String url) {
         return url.substring(0,END_INDEX);
