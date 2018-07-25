@@ -3,20 +3,13 @@
          xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <parent>
-        <artifactId>one</artifactId>
+        <artifactId>learn-java</artifactId>
         <groupId>me.ning</groupId>
         <version>0.0.1-SNAPSHOT</version>
     </parent>
     <modelVersion>4.0.0</modelVersion>
-    <artifactId>learn-java</artifactId>
-    <packaging>pom</packaging>
-    <modules>
-        <module>learn-java-algorithms</module>
-        <module>learn-java-interface</module>
-        <module>learn-java-swing</module>
-        <module>learn-java-keyword</module>
-        <module>learn-java-file</module>
-    </modules>
+
+    <artifactId>learn-java-keyword</artifactId>
 
 
 </project>

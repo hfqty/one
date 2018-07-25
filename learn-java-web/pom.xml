@@ -8,14 +8,11 @@
         <version>0.0.1-SNAPSHOT</version>
     </parent>
     <modelVersion>4.0.0</modelVersion>
-    <artifactId>learn-java</artifactId>
+
+    <artifactId>learn-java-web</artifactId>
     <packaging>pom</packaging>
     <modules>
-        <module>learn-java-algorithms</module>
-        <module>learn-java-interface</module>
-        <module>learn-java-swing</module>
-        <module>learn-java-keyword</module>
-        <module>learn-java-file</module>
+        <module>learn-java-web-servlet</module>
     </modules>
 
 

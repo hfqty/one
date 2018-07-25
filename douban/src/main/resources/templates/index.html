@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Parse DouList To Markdown File</title>
+</head>
+<body>
+<div >
+    <div>
+        <h1>你可以把链接复制到这里</h1>
+    </div>
+    <div>
+        <form id='parseForm' action="parsedoulist" method="post">
+        <select name="type">
+            <option value="url">连接</option>
+            <option value="id">id</option>
+        </select>
+            <input type="text" name="url" placeholder="请输入内容">
+            <br/>
+            <input type="button" onclick="parse();" value="开始解析">
+        </form>
+    </div>
+</div>
+</body>
+<script src="../js/jquery/jquery-3.3.1.js"></script>
+<script>
+    function parse(){
+        $.post(
+            "parsedoulist",
+            $("#parseForm").serialize(),
+            function(result){
+                alert(result.msg);
+            },"json"
+        )
+    }
+</script>
+</html>
