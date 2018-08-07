@@ -22,9 +22,9 @@ function all_images(num,size){
             $("#nav_bar").show();
             $.each(data.row,function(i,img){
                var imgli = $("<li ></li>");
-               var img_date_div = $("<div class='img_date'></div>");
-               var imgimg = $("<image class='image-ul-show' onclick='lgimg(this)'/>");
-               var url_text = $("<p id='name"+img.name+"' class='image-create-date' hidden></p>");
+               var img_date_div = $("<div classs='img_date'></div>");
+               var imgimg = $("<image classs='image-ul-show' onclick='lgimg(this)'/>");
+               var url_text = $("<p id='name"+img.name+"' classs='image-create-date' hidden></p>");
                 var small_url = getUrl(img.url,640,480);
                url_text.text(img.create_time);
                imgimg.attr("src",small_url);
@@ -39,7 +39,7 @@ function all_images(num,size){
 
 
 function dateDiv(){
-    var div = "<div class='img_date'></div>";
+    var div = "<div classs='img_date'></div>";
     return div;
 }
 

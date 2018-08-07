@@ -11,7 +11,7 @@ import java.beans.PropertyVetoException;
 @Configuration
 @MapperScan("me.ning.pro.book.dao")
 public class DataSourceConfiguration {
-    @Value("${spring.datasource.driver-class-name}")
+    @Value("${spring.datasource.driver-classs-name}")
     private String jdbcDriver;
 
     @Value("${spring.datasource.url}")

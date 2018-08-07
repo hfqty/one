@@ -9,16 +9,15 @@
     <modules>
         <module>douban</module>
         <module>unsplash</module>
-        <module>learn-java</module>
         <module>interview-java</module>
         <module>learn-java8</module>
         <module>read</module>
-        <module>learn-java-web</module>
+        <module>learn-java</module>
     </modules>
+
     <packaging>pom</packaging>
 
-    <name>one
-    </name>
+    <name>one</name>
     <description>get some pic from uplash</description>
 
     <parent>

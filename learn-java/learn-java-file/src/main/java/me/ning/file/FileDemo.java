@@ -33,8 +33,8 @@ public class FileDemo {
         }
 
         System.out.println("file.getFreeSpace()="+file.getFreeSpace());
-        System.out.println("file.getName()="+file.getName());
-        System.out.println("file.getParent()="+file.getParent());
-        System.out.println("file.getParent()="+file.getParentFile());
+        System.out.println("file.getName()=" + file.getName());
+        System.out.println("file.getParent()=" + file.getParent());
+        System.out.println("file.getParent()=" + file.getParentFile());
     }
 }
